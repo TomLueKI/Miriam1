@@ -1,0 +1,176 @@
+
+$buttonpos: 30%;
+$buttonmargin: 10px;
+$buttonpadding: 5px;
+$buttoncolor: rgb(69, 82, 199);
+
+a.button1{
+    font-weight: bold;
+    color: black;
+
+    padding: $buttonpadding;
+    margin: $buttonmargin;
+    text-decoration: none;
+
+    position:absolute;
+    left: 5%;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+
+a.button2{
+    font-weight: bold;
+    color: black;
+    padding: $buttonpadding;
+    margin: $buttonmargin;
+    text-decoration: none;
+    text-align: center; 
+
+    position:absolute;
+    left: $buttonpos;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+
+a.button3{
+    font-weight: bold;
+    color: black;
+    padding: $buttonpadding;
+    margin: $buttonmargin;
+    text-decoration: none;
+    text-align: center; 
+
+    position:absolute;
+    right: $buttonpos;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a.button4{
+    font-weight: bold;
+    color: black;
+    padding: $buttonpadding;
+    margin: $buttonmargin;
+    text-decoration: none;
+    text-align: center; 
+
+    position:absolute;
+    right: 5%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a.button1:active {
+    border-style: solid;
+    border-color:  rgb(49, 1, 1);
+    border-width: 3px;
+}
+a.button2:hover {
+    background-color:  rgb(49, 1, 1);
+}
+a.button3:hover {
+    background-color:  rgb(49, 1, 1);
+}
+a.button4:hover {
+    background-color:  rgb(49, 1, 1);
+}
+
+$test2: 190px - 10px;
+header {
+
+    background-color: rgb(245, 238, 238);
+
+    top: 100%;
+    height: 50px;
+    width: 100%;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(65, 1, 1);
+
+}
+
+$test: rgb(255, 255, 255);
+
+body {
+    background-color: $test;
+
+
+    height: 400px;
+
+    hi{
+        font-weight: bold;
+        color: rgb(20, 0, 0);
+        font-size: 32px;
+        font-family: Helvetica, Arial, sans-serif;
+
+        border-style: solid;
+        border-width: 5px;
+        border-color: rgb(65, 1, 1);
+
+
+
+    }
+
+    .pics{
+        width: auto;
+        height: auto;
+
+        max-width: 100px;
+        max-height: 100px;
+
+
+    }
+
+    p{
+        width: 100px;
+    }
+
+
+    #id1{
+        position: absolute;
+        left: 10%;
+    }
+    #id2{
+        position: absolute;
+        left: 43%;
+    }
+    #id3{
+        position: absolute;
+        right: 10%;
+    }
+
+    #bodypic{
+        
+        height: auto; 
+        width: 100%; 
+        max-height: 100px;
+
+    }
+    
+}
+
+a.footertext{
+    list-style-type: none;
+}
+
+footer {
+    background-color: rgb(245, 238, 238);
+    position: relative;
+    top: 100%;
+    height: 50px;
+    width: 100%;
+
+    margin-top: 50px;
+
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-color: rgb(65, 1, 1);
+    
+    #logo{
+        width: 50px;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+
+}
+
