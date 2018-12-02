@@ -96,17 +96,15 @@ body {
 
     height: 400px;
 
-    hi{
+    h1{
         font-weight: bold;
         color: rgb(20, 0, 0);
         font-size: 32px;
         font-family: Helvetica, Arial, sans-serif;
 
-        border-style: solid;
-        border-width: 5px;
-        border-color: rgb(65, 1, 1);
 
-
+        position: absolute;
+        right: 30%;
 
     }
 
@@ -127,13 +125,16 @@ body {
 
     #id1{
         position: absolute;
+        margin-top: 50px;
         left: 10%;
     }
     #id2{
+        margin-top: 50px;
         position: absolute;
         left: 43%;
     }
     #id3{
+        margin-top: 50px;
         position: absolute;
         right: 10%;
     }
